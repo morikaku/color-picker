@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#app {
+    width: 50%;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.color-picker__preview {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto 20px;
+}
+
+
+.color {
+    border: 5px solid #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.color:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-size: 10px;
+    padding: 20px;
+    text-align: center;
+}

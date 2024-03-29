@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="icon" type="image/svg+xml" href="img/icons8-vue-js.svg">
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js" defer></script>
+    <script src="js/my-script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Color Picker</h1>
+        <p class="description">Select a color from the color picker and see the color code.</p>
+
+        <!-- Vue.js -->
+        <div id="app">
+            <div class="color-picker">
+                <div class="color-picker__preview" :style="{ backgroundColor: color }"></div>
+                <input class="color" type="color" v-model="color">
+            </div>
+            <p>Selected : {{ color }}</p>
+        </div>
+        <!-- vue.js -->
+
+        <footer>
+            <a target="_blank" href="https://icons8.com/icon/rY6agKizO9eb/vue-js">Vue Js</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </footer>
+    </div><!-- /.container -->
+</body>
+</html>

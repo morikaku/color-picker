@@ -18,8 +18,16 @@
 .description {
     font-size: 16px;
     padding: 0 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.firefox-issue {
+    font-size: 12px;
+    padding: 0 20px;
     margin-bottom: 20px;
     text-align: center;
+    color: #ff9999;
 }
 
 #app {
@@ -30,7 +38,6 @@
 }
 
 .color-code {
-    font-size: 20px;
     margin-bottom: 20px;
 }
 

@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
-            color: '#000000'
+            color: '#0000ff'
         }
     }
 });
